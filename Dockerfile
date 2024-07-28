@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Barakabegaa/BARAKA-MD-V2.git  /root/bega
+RUN git clone https://github.com/Barakabegaa/BARAKA-MD-.git  /root/bega
 WORKDIR /root/bega/
 
 
