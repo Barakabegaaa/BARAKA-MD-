@@ -818,10 +818,10 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("Baraka Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Baraka Md Commands ...\n");
-                fs.readdirSync(__dirname + "/bmw").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/bega").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/bmw/" + fichier);
+                            require(__dirname + "/bega/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
@@ -851,7 +851,6 @@ zk.ev.on('group-participants.update', async (group) => {
                     let cmsg =`     ❒ ❒⁠ 𝐁𝐀𝐑𝐀𝐊𝐀-𝐌𝐃 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 ❒ ⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭───────────❒⁠⁠⁠⁠              
 > Prefix : [ ${prefixe} ]
-> MODE : ${md} mode
 > Plugins  : 240 
 > Ram   : 22.95/61.79 GB
 > Platform : Chrome linux
