@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+baraka({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,7 +51,7 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, 
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+baraka({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
@@ -92,7 +92,7 @@ else {
 }
 });
 
-zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+baraka({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("THANK YOU FOR CHOOSING BARAKA-MD-V2, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/L8TDJ3U6Ca1IlGlZaEYyeu] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Baraka Bega") 
