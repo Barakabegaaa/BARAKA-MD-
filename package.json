@@ -16,9 +16,9 @@
     "Baraka-md",
     "whatsapp",
     "whatsapp-bot",
-    "bmw-md-bot"
+    "baraka-md-bot"
   ],
-  "author": "ibrahim Adams",
+  "author": "Baraka bega",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
