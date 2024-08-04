@@ -33,31 +33,13 @@ async (dest, zk, commandeOptions) => {
 
 
 
-await repondre(`*_BELTAH-MD SPEED IS :_*_${flashspeed} MS_* `);
+await repondre(`*_BARAKA-MD-V2 SPEED IS :_*_${flashspeed} MS_* `);
 
 }
 );
 
 
-/*king({ nomCom: 'active',
-    desc: 'To check ping',
-    Categorie: 'General',
-    reaction: '⏲️', 
-    fromMe: 'true', 
 
-
-  },
-
-async (dest, zk, commandeOptions) => {
-    const { ms, arg, repondre, } = commandeOptions;
-
-
-
-await zk.sendMessage(dest, { video: { url: 'https://telegra.ph/file/4bbcfdf0a62d8a53165ee.mp4' }, caption: `Hello ${m.pushName}, 𝐑𝐀𝐈𝐃𝐄𝐑 is alive since  ${runtime(process.uptime())}`, { quoted: m }); 
-}
-
-}
-);*/
 
 zokou({ nomCom: 'uptime',
     desc: 'To check runtime',    
@@ -70,7 +52,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Uptime of BELTAH-MD is: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*_Uptime of BARAKA-MD-V2 is: ${runtime(process.uptime())}_*`) 
 
    
 
@@ -98,7 +80,7 @@ zokou({ nomCom: 'ss',
 let linkkk = `https://api.maher-zubair.tech/misc/sstab?url=${linkk}&dimension=720x720`;
 
 let res = await getBuffer(linkkk);
-   let caption = '*Powered by FLASH-MD*' 
+   let caption = '*Powered by BMW-MD*' 
 
 await zk.sendMessage(dest, { image: res }, { caption: caption }, { quoted: ms });
 
