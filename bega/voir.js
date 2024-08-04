@@ -1,13 +1,13 @@
-const {Baraka}=require("../framework/zokou") ;
+const {zokou}=require("../framework/zokou") ;
 
 
 
-baraka({nomCom:"vv",categorie:"General",reaction:"🤪"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"vv",categorie:"General",reaction:"🤪"},async(dest,zk,commandeOptions)=>{
 
 const {ms,msgRepondu,repondre}=commandeOptions;
 
 
-if(!msgRepondu){return repondre("*Mentionne a view once image/video* .");}
+if(!msgRepondu){return repondre("*Mentionne a view once media* .");}
 
 
 if(msgRepondu.viewOnceMessageV2)
