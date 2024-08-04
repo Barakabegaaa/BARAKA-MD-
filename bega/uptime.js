@@ -47,7 +47,7 @@ function _0x4925() {
         'length',
         '\x20second',
         'QmFeS',
-        'y\x20BARAKA-MD-V2',
+        'y\x20BARAKA-MD-2',
         'link...',
         '6108JYdMzG',
         '4|5|0|1|9|',
