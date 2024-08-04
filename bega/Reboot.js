@@ -1,4 +1,4 @@
-const {baraka}=require("../framework/baraka")
+const {zokou}=require("../framework/zokou")
 
 
 
@@ -6,7 +6,7 @@ const {baraka}=require("../framework/baraka")
 
 
 
-baraka({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
+zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
 
 
   
