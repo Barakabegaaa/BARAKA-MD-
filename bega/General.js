@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING BARAKA-MD-V2, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/L8TDJ3U6Ca1IlGlZaEYyeu] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Baraka Bega") 
+  repondre("THANK YOU FOR CHOOSING BARAKA-MD-V2, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/DWMdXPkkieGJNj3Nwhx9xp] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/L8TDJ3U6Ca1IlGlZaEYyeu] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Baraka Bega") 
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BARAKA-MD-V2,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
