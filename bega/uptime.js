@@ -44,7 +44,7 @@ await repondre(`*_BARAKA-MD-V2 SPEED IS :_*_${flashspeed} MS_* `);
 zokou({ nomCom: 'uptime',
     desc: 'To check runtime',    
     Categorie: 'General',
-    reaction: '🚨', 
+    reaction: '⚡️', 
     fromMe: 'true', 
 
 
