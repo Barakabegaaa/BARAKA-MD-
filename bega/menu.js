@@ -33,15 +33,15 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭──────𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2───────❂
-┊❂╭───────────────────❂
+╭─────𝑩𝑨𝑹𝑨𝑲𝑨-𝑴𝑫-𝑽2──────❂
+┊❂╭─────────────────❂
 ┊✺┊ *User* : ${s.OWNER_NAME}
 ┊✺┊ *Mode* : ${mode}
 ┊✺┊ *Commands* : 240
 ┊✺┊ *Time* : ${temps}  
 ┊✺┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┊❂╰───────────────────❂
-╰─────────────────────❂ \n\n`;
+┊❂╰─────────────────❂
+╰───────────────────❂ \n\n`;
  
     let menuMsg=`  
 ◼️➽➽➽➽➽➽➽➽➽➽➽➽➽➽◼️
@@ -60,7 +60,7 @@ const date = moment().format('DD/MM/YYYY');
     menuMsg += `
                                    
  *𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑩𝑨𝑹𝑨𝑲𝑨 𝑪𝑯𝑨𝑪𝑯𝑨 𝑩𝑬𝑮𝑨*
-*╰═══════════════════════════❂*
+*╰═════════════════════════❂*
 `;
 
    var lien = mybotpic();
