@@ -42,10 +42,8 @@ const date = moment().format('DD/MM/YYYY');
 ┊✺┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┊❂╰─────────────────❂
 ╰───────────────────❂ \n\n`;
- 
+    
     let menuMsg=`     
-*┊* BOT-OWNER https://wa.me/255762190568
-
 *╭════════════════════════❂*   
 `;
 
