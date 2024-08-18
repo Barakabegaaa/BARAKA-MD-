@@ -43,9 +43,8 @@ const date = moment().format('DD/MM/YYYY');
 ┊❂╰─────────────────❂
 ╰───────────────────❂ \n\n`;
  
-    let menuMsg=` 
-    
-*┊* OWNER  https://wa.me/255762190568
+    let menuMsg=`     
+*┊* BOT-OWNER https://wa.me/255762190568
 
 *╭════════════════════════❂*   
 `;
