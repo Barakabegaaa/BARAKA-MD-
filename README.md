@@ -10,5 +10,5 @@
 
 
 ## 📊 `GitHub Stats of Bot Contributors`
-[![Baraka bega GitHub stats](https://github-readme-stats.vercel.app/api?username=Barakabegaa&show_icons=true&theme=radical)](https://github.com/salmanytofficial)
-[![Ibrahim Adams GitHub stats](https://github-readme-stats.vercel.app/api?username=Ibrahimitech&show_icons=true&theme=radical)](https://github.com/abrahamdw882)
+[![Baraka bega GitHub stats](https://github-readme-stats.vercel.app/api?username=Barakabegaa&show_icons=true&theme=radical)](https://github.com/Barakabegaa)
+[![Ibrahim Adams GitHub stats](https://github-readme-stats.vercel.app/api?username=Ibrahimitech&show_icons=true&theme=radical)](https://github.com/Ibrahimitech)
