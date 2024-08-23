@@ -10,6 +10,5 @@
 
 
 ## 📊 `GitHub Stats of Bot Contributors`
-[![Salman Ahmad's GitHub stats](https://github-readme-stats.vercel.app/api?username=salmanytofficial&show_icons=true&theme=radical)](https://github.com/salmanytofficial)
-[![Abraham Dwamena's GitHub stats](https://github-readme-stats.vercel.app/api?username=abrahamdw882&show_icons=true&theme=radical)](https://github.com/abrahamdw882)
-[![Suhail Tech Info's GitHub stats](https://github-readme-stats.vercel.app/api?username=SuhailTechInfo&show_icons=true&theme=radical
+[![Baraka bega GitHub stats](https://github-readme-stats.vercel.app/api?username=Barakabegaa&show_icons=true&theme=radical)](https://github.com/salmanytofficial)
+[![Ibrahim Adams GitHub stats](https://github-readme-stats.vercel.app/api?username=Ibrahimitech&show_icons=true&theme=radical)](https://github.com/abrahamdw882)
