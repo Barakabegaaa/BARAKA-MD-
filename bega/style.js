@@ -10,10 +10,10 @@ function apply(map, text) {
 
 function list(text, fancy) {
     let styles = Object.keys(fancy).filter(e => e.length < 3);
-    let msg = '\n*Availabe Fancy styles for BARAKA-MD-V2:*\n\n';
+    let msg = '\n*Availabe Fancy styles for BARAKA-MD-V1:*\n\n';
     for (let style in styles) {
         if (style == 33) {
-            msg += (parseInt(style) + 1) + '. ' + 'baraka-md-v2' + '\n';
+            msg += (parseInt(style) + 1) + '. ' + 'baraka-md-v1' + '\n';
         } else {
             msg += (parseInt(style) + 1) + '. ' + fancy.apply(fancy[parseInt(style)], text) + '\n';
         }
