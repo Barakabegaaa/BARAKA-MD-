@@ -6,7 +6,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"restart",categorie:"Mods",reaction:"🚨"},async(dest,z,com)=>{
+zokou({nomCom:"restart",categorie:"Mods",reaction:"🌀"},async(dest,z,com)=>{
 
 
   
@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("BARAKA-MD-V2 BOT RESTARTING🚨");
+    repondre("BARAKA-MD-V1 BOT RESTARTING🌀");
 
   exec("pm2 restart all");
   
