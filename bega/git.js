@@ -34,7 +34,6 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-
 ( ͡° ͜ʖ ͡°) 𝐎𝐳𝐚𝐚𝐡  👊 𝐭𝐡𝐢𝐬 𝐢𝐬  𝐛𝐚𝐫𝐚𝐤𝐚_𝐦𝐝   𝐜𝐫𝐞𝐚𝐭𝐞𝐝  𝐛𝐲  𝐛𝐚𝐫𝐚𝐤𝐚_𝐛𝐞𝐠𝐚
 ( ͡° ͜ʖ ͡°) 𝐏𝐥𝐞𝐚𝐬𝐞 𝐠𝐢𝐯𝐞 𝐚 𝐬𝐭𝐚𝐫  🌟 𝐨𝐧 𝐭𝐡𝐞 𝐫𝐞𝐩𝐨 𝐚𝐧𝐝 𝐟𝐨𝐫𝐤 𝐢𝐭  🚗  𝐤𝐢𝐧𝐝𝐥𝐲
 
