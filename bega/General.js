@@ -10,7 +10,7 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🌀" }, async (dest, 
   if (thsudo) {
      let msg = `*My Super-User*\n
      *Owner Number*\n :
-- 🌟 @${conf.NUMERO_OWNER}
+- 💫 @${conf.NUMERO_OWNER}
 
 ------ *other sudos* -----\n`
      
